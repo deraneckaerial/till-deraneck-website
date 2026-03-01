@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Till Deraneck | Versicherungsmakler & Invest4Kids-Experte</title>
+  <meta name="description" content="Dein unabhängiger §34d-Versicherungsmakler Till Deraneck. Spezialisiert auf Invest4Kids: das richtige Investment für dein Kind. Persönliche, permanente Betreuung." />
+  <meta name="keywords" content="Versicherungsmakler, Invest4Kids, Kinderinvestment, Familienberatung, Till Deraneck" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Till Deraneck | Invest4Kids & Versicherungsberatung" />
+  <meta property="og:description" content="Ich helfe Familien, das richtige Investment für ihr Kind zu finden, persönlich, transparent, langfristig." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-first">Till</span>
+        <span class="brand-last">Deraneck</span>
+        <span class="brand-dot">.</span>
+      </a>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#ueber-mich" class="nav-link">Über mich</a>
+        <a href="#leistungen" class="nav-link">Leistungen</a>
+        <a href="#invest4kids" class="nav-link">Invest4Kids</a>
+        <a href="#prozess" class="nav-link">Vorgehen</a>
+        <a href="#kontakt" class="nav-cta-btn">
+          Gespräch anfragen
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-gradient"></div>
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-eyebrow reveal-up">
+          <span class="eyebrow-dot"></span>
+          §34d geprüfter Versicherungsmakler
+        </div>
+
+        <h1 class="hero-headline reveal-up delay-1">
+          Die Zukunft<br />
+          deines Kindes<br />
+          <span class="headline-accent">beginnt heute.</span>
+        </h1>
+
+        <p class="hero-sub reveal-up delay-2">
+          Ich helfe Familien, das richtige Investment für ihr Kind zu finden,
+          maßgeschneidert, transparent und mit persönlicher Betreuung, die dauerhaft bleibt.
+        </p>
+
+        <div class="hero-actions reveal-up delay-3">
+          <a href="#kontakt" class="btn-hero-primary">
+            Kostenloses Erstgespräch
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#invest4kids" class="btn-hero-ghost">
+            <i class="fas fa-play-circle"></i>
+            Invest4Kids entdecken
+          </a>
+        </div>
+
+        <div class="hero-trust reveal-up delay-4">
+          <div class="trust-pill"><i class="fas fa-circle-check"></i> Unabhängige Beratung</div>
+          <div class="trust-pill"><i class="fas fa-circle-check"></i> Keine versteckten Kosten</div>
+          <div class="trust-pill"><i class="fas fa-circle-check"></i> Permanente Begleitung</div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal-right delay-2">
+        <div class="profile-frame">
+          <div class="profile-img-wrapper">
+            <img
+              src="images/hero.jpg"
+              alt="Till Deraneck, Versicherungsmakler &amp; Invest4Kids-Experte"
+              class="profile-img"
+              id="heroImg"
+              onerror="document.getElementById('heroImg').style.display='none'; document.getElementById('heroPh').style.display='flex';"
+            />
+            <div class="profile-placeholder" id="heroPh">
+              <i class="fas fa-user"></i>
+              <p>Dein Foto hier</p>
+              <small>Datei: images/hero.jpg</small>
+            </div>
+          </div>
+
+          <div class="profile-badge badge-top">
+            <div class="badge-icon"><i class="fas fa-seedling"></i></div>
+            <div class="badge-text">
+              <strong>Invest4Kids</strong>
+              <span>Spezialist</span>
+            </div>
+          </div>
+
+          <div class="profile-badge badge-bottom">
+            <div class="badge-icon"><i class="fas fa-shield-halved"></i></div>
+            <div class="badge-text">
+              <strong>§34d</strong>
+              <span>Zertifiziert</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stats-float">
+          <div class="stat-float">
+            <span class="stat-float-num">100%</span>
+            <span class="stat-float-label">Unabhängig</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-float">
+            <span class="stat-float-num">∞</span>
+            <span class="stat-float-label">Betreuung</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#ueber-mich" class="hero-scroll-hint" aria-label="Scrollen">
+      <span class="scroll-text">Scrollen</span>
+      <div class="scroll-line">
+        <div class="scroll-dot"></div>
+      </div>
+    </a>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-bar-grid">
+        <div class="trust-bar-item">
+          <div class="counter" data-target="200" data-suffix="+">0</div>
+          <div class="counter-label">Betreute Klienten</div>
+        </div>
+        <div class="trust-bar-divider"></div>
+        <div class="trust-bar-item">
+          <div class="counter" data-target="5" data-suffix="+">0</div>
+          <div class="counter-label">Jahre Erfahrung</div>
+        </div>
+        <div class="trust-bar-divider"></div>
+        <div class="trust-bar-item">
+          <div class="counter" data-target="100" data-suffix="%">0</div>
+          <div class="counter-label">Unabhängig</div>
+        </div>
+        <div class="trust-bar-divider"></div>
+        <div class="trust-bar-item">
+          <div class="counter" data-target="24" data-suffix="/7">0</div>
+          <div class="counter-label">Erreichbar</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VISION & MISSION ===== -->
+  <section class="section vision-section">
+    <div class="container">
+      <div class="vision-grid">
+
+        <div class="vision-card reveal-up">
+          <div class="vision-icon"><i class="fas fa-eye"></i></div>
+          <div class="vision-label">Vision</div>
+          <h3 class="vision-heading">Eine Welt, in der jedes Kind mit finanzieller Sicherheit aufwächst.</h3>
+          <p class="vision-body">Ich glaube, dass Vorsorge keine Frage des Einkommens sein sollte. Meine Vision ist eine Gesellschaft, in der Eltern früh handeln, und ihre Kinder deshalb unabhängig und selbstbestimmt ins Erwachsenenleben starten.</p>
+        </div>
+
+        <div class="vision-divider"></div>
+
+        <div class="vision-card reveal-up" style="--delay:.15s">
+          <div class="vision-icon"><i class="fas fa-bullseye"></i></div>
+          <div class="vision-label">Mission</div>
+          <h3 class="vision-heading">Über 200 Familien zeigen: Mit dem richtigen Partner macht Vorsorge Spaß.</h3>
+          <p class="vision-body">Ich begleite Familien auf Augenhöhe, ehrlich, transparent und ohne Fachchinesisch. Kein Produkt um des Produktes willen, sondern immer die Lösung, die wirklich zu euch passt. Langfristig. Persönlich. Verlässlich.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about-section" id="ueber-mich">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-image-col fade-in">
+          <div class="about-img-frame">
+            <img
+              src="images/about.jpg"
+              alt="Till Deraneck"
+              class="about-img"
+              id="aboutImg"
+              onerror="document.getElementById('aboutImg').style.display='none'; document.getElementById('aboutPh').style.display='flex';"
+            />
+            <div class="about-placeholder" id="aboutPh">
+              <i class="fas fa-user-tie"></i>
+              <small>Datei: images/about.jpg</small>
+            </div>
+          </div>
+
+          <div class="about-credentials-card">
+            <div class="cred-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>B.A. Business Administration</strong>
+                <span>Schwerpunkt Marketing Management</span>
+              </div>
+            </div>
+            <div class="cred-divider"></div>
+            <div class="cred-item">
+              <i class="fas fa-certificate"></i>
+              <div>
+                <strong>§34d Versicherungsmakler</strong>
+                <span>Geprüft & selbstständig</span>
+              </div>
+            </div>
+            <div class="cred-divider"></div>
+            <div class="cred-item">
+              <i class="fas fa-handshake"></i>
+              <div>
+                <strong>Invest4Kids Partner</strong>
+                <span>Familien-Investment-Experte</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content-col fade-in">
+          <div class="section-eyebrow">Über mich</div>
+          <h2 class="section-heading">
+            Mehr als ein Berater,<br />
+            <span class="heading-accent">ein Partner für deine Familie.</span>
+          </h2>
+
+          <p class="about-p">
+            Mit 34 Jahren bringe ich eine seltene Kombination aus akademischem Fundament,
+            unternehmerischem Antrieb und echter Leidenschaft für das Wohlergehen von Familien mit.
+            Als <strong>Bachelor of Business Administration</strong> mit Schwerpunkt Marketing Management
+            verstehe ich, wie man komplexe Themen klar und verständlich kommuniziert.
+          </p>
+
+          <p class="about-p">
+            Als <strong>§34d geprüfter Versicherungsmakler</strong> stehe ich ausschließlich auf
+            deiner Seite, nicht auf der des Versicherers. Durch meine Tätigkeit bei
+            <strong>Invest4Kids</strong> helfe ich Familien, frühzeitig die finanzielle Zukunft
+            ihrer Kinder zu sichern. Ich betreue meine Klienten nicht nur einmalig, sondern
+            langfristig und dauerhaft.
+          </p>
+
+          <div class="about-passions">
+            <h3 class="passions-title">Abseits der Beratung</h3>
+            <div class="passions-grid">
+              <div class="passion-chip">
+                <i class="fas fa-satellite-dish"></i>
+                <span>Drohnenpilot</span>
+              </div>
+              <div class="passion-chip">
+                <i class="fas fa-microchip"></i>
+                <span>KI-Entwicklung</span>
+              </div>
+              <div class="passion-chip">
+                <i class="fas fa-chart-line"></i>
+                <span>Finanzmärkte</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="#kontakt" class="btn-primary">
+            Jetzt kennenlernen
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section services-section bg-light" id="leistungen">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-eyebrow">Leistungen</div>
+        <h2 class="section-heading">Was ich für dich tue</h2>
+        <p class="section-sub">Ganzheitliche Beratung, mit Fokus auf das, was wirklich zählt.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Invest4Kids – featured -->
+        <div class="service-card service-featured fade-in">
+          <div class="service-badge-label">Hauptleistung</div>
+          <div class="service-icon-wrap featured-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3 class="service-title">Invest4Kids</h3>
+          <p class="service-desc">
+            Das richtige Investment für dein Kind, von Anfang an. Ich entwickle eine
+            maßgeschneiderte Anlagestrategie, die mit deinem Kind wächst.
+          </p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Individuelle Portfolioanalyse</li>
+            <li><i class="fas fa-check"></i> Langfristige Wachstumsstrategie</li>
+            <li><i class="fas fa-check"></i> Permanente Betreuung & Anpassung</li>
+            <li><i class="fas fa-check"></i> Vollständige Transparenz</li>
+          </ul>
+          <a href="#invest4kids" class="btn-primary">
+            Mehr erfahren <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Versicherung -->
+        <div class="service-card fade-in">
+          <div class="service-icon-wrap">
+            <i class="fas fa-shield-halved"></i>
+          </div>
+          <h3 class="service-title">Versicherungsberatung</h3>
+          <p class="service-desc">
+            Als unabhängiger §34d-Makler bin ich dir gegenüber verpflichtet.
+            Kein Provisionsdenken, nur der beste Schutz für dich.
+          </p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Unabhängiger Marktvergleich</li>
+            <li><i class="fas fa-check"></i> Bedarfsgerechte Analyse</li>
+            <li><i class="fas fa-check"></i> Schadensbearbeitung & Support</li>
+            <li><i class="fas fa-check"></i> Regelmäßige Bestandsprüfung</li>
+          </ul>
+          <a href="#kontakt" class="btn-outline">Beratung anfragen</a>
+        </div>
+
+        <!-- Familienberatung -->
+        <div class="service-card fade-in">
+          <div class="service-icon-wrap">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="service-title">Ganzheitliche Familienberatung</h3>
+          <p class="service-desc">
+            Von der Altersvorsorge bis zum Bildungsfonds, ich denke deine Finanzen
+            als zusammenhängendes System und berate entsprechend.
+          </p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Familien-Finanzplanung</li>
+            <li><i class="fas fa-check"></i> Altersvorsorge & Absicherung</li>
+            <li><i class="fas fa-check"></i> Bildungsfonds & Kinderdepots</li>
+            <li><i class="fas fa-check"></i> Steueroptimierte Lösungen</li>
+          </ul>
+          <a href="#kontakt" class="btn-outline">Beratung anfragen</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INVEST4KIDS DEEP DIVE ===== -->
+  <section class="invest4kids-section" id="invest4kids">
+    <div class="i4k-bg"></div>
+    <div class="container">
+      <div class="i4k-grid">
+
+        <div class="i4k-text fade-in">
+          <div class="section-eyebrow light">Invest4Kids</div>
+          <h2 class="section-heading light">
+            Investier in das Wichtigste:
+            <span class="heading-accent-light">die Zukunft deines Kindes.</span>
+          </h2>
+          <p class="i4k-desc">
+            Jedes Kind verdient den besten Start ins Leben. Mit Invest4Kids entwickle ich
+            gemeinsam mit dir eine maßgeschneiderte Anlagestrategie, die mit deinem Kind
+            wächst, und zum richtigen Zeitpunkt das Maximum herausholt.
+          </p>
+
+          <div class="i4k-features">
+            <div class="i4k-feature">
+              <div class="i4k-feature-icon"><i class="fas fa-chart-line"></i></div>
+              <div class="i4k-feature-text">
+                <h4>Renditeorientiert</h4>
+                <p>Optimale Anlagestrategien für nachhaltiges, langfristiges Wachstum.</p>
+              </div>
+            </div>
+            <div class="i4k-feature">
+              <div class="i4k-feature-icon"><i class="fas fa-lock"></i></div>
+              <div class="i4k-feature-text">
+                <h4>Sicher & flexibel</h4>
+                <p>Kapitalschutz mit der Flexibilität, auf Lebensveränderungen zu reagieren.</p>
+              </div>
+            </div>
+            <div class="i4k-feature">
+              <div class="i4k-feature-icon"><i class="fas fa-handshake"></i></div>
+              <div class="i4k-feature-text">
+                <h4>Permanente Begleitung</h4>
+                <p>Von heute bis zum Ziel, ich bin dauerhaft an deiner Seite.</p>
+              </div>
+            </div>
+            <div class="i4k-feature">
+              <div class="i4k-feature-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+              <div class="i4k-feature-text">
+                <h4>Vollständige Transparenz</h4>
+                <p>Keine versteckten Gebühren. Du siehst jederzeit, wo dein Geld arbeitet.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#kontakt" class="btn-gold">
+            Jetzt für mein Kind starten
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="i4k-visual fade-in">
+          <div class="growth-card">
+            <div class="growth-card-header">
+              <span>Wachstumspotenzial</span>
+              <span class="growth-subtitle">Frühzeitig anfangen zahlt sich aus</span>
+            </div>
+            <div class="growth-chart">
+              <div class="chart-y-labels">
+                <span>Hoch</span>
+                <span>Mittel</span>
+                <span>Start</span>
+              </div>
+              <div class="chart-bars-wrap">
+                <div class="chart-bar-item">
+                  <div class="chart-bar-col" style="--h:18%"></div>
+                  <span class="chart-bar-label">Geburt</span>
+                </div>
+                <div class="chart-bar-item">
+                  <div class="chart-bar-col" style="--h:28%"></div>
+                  <span class="chart-bar-label">3 J.</span>
+                </div>
+                <div class="chart-bar-item">
+                  <div class="chart-bar-col" style="--h:42%"></div>
+                  <span class="chart-bar-label">6 J.</span>
+                </div>
+                <div class="chart-bar-item">
+                  <div class="chart-bar-col" style="--h:56%"></div>
+                  <span class="chart-bar-label">9 J.</span>
+                </div>
+                <div class="chart-bar-item">
+                  <div class="chart-bar-col" style="--h:70%"></div>
+                  <span class="chart-bar-label">12 J.</span>
+                </div>
+                <div class="chart-bar-item">
+                  <div class="chart-bar-col" style="--h:84%"></div>
+                  <span class="chart-bar-label">15 J.</span>
+                </div>
+                <div class="chart-bar-item chart-bar-highlight">
+                  <div class="chart-bar-col" style="--h:100%"></div>
+                  <span class="chart-bar-label">18 J.</span>
+                </div>
+              </div>
+            </div>
+            <p class="chart-disclaimer">* Vereinfachte Illustration. Kein Anlageversprechen.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="section process-section" id="prozess">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-eyebrow">Mein Vorgehen</div>
+        <h2 class="section-heading">In 3 Schritten zu deiner Lösung</h2>
+        <p class="section-sub">Einfach, transparent und ohne Druck.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step fade-in">
+          <div class="step-num">01</div>
+          <div class="step-icon-wrap"><i class="fas fa-comments"></i></div>
+          <h3 class="step-title">Kostenloses Erstgespräch</h3>
+          <p class="step-desc">
+            Wir lernen uns kennen. Ich höre zu, verstehe deine Situation und deine Ziele,
+            völlig unverbindlich und ohne Verkaufsdruck.
+          </p>
+        </div>
+
+        <div class="process-arrow fade-in">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="process-step fade-in">
+          <div class="step-num">02</div>
+          <div class="step-icon-wrap"><i class="fas fa-clipboard-list"></i></div>
+          <h3 class="step-title">Individuelle Analyse</h3>
+          <p class="step-desc">
+            Auf Basis unseres Gesprächs entwickle ich eine maßgeschneiderte Strategie,
+            die exakt auf deine Familie und deine Ziele passt.
+          </p>
+        </div>
+
+        <div class="process-arrow fade-in">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="process-step fade-in">
+          <div class="step-num">03</div>
+          <div class="step-icon-wrap"><i class="fas fa-rocket"></i></div>
+          <h3 class="step-title">Umsetzung & Begleitung</h3>
+          <p class="step-desc">
+            Wir setzen gemeinsam um, und ich bleibe dauerhaft an deiner Seite.
+            Permanente Betreuung ist für mich kein Angebot, sondern Versprechen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY ME ===== -->
+  <section class="section why-section bg-light">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-eyebrow">Warum Till Deraneck</div>
+        <h2 class="section-heading">Dein Vorteil durch meine Beratung</h2>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card fade-in">
+          <div class="why-icon"><i class="fas fa-scale-balanced"></i></div>
+          <h3>100% Unabhängig</h3>
+          <p>Ich bin keinem Versicherer oder Fondsanbieter verpflichtet. Meine einzige Loyalität gilt dir und deiner Familie.</p>
+        </div>
+        <div class="why-card fade-in">
+          <div class="why-icon"><i class="fas fa-user-tie"></i></div>
+          <h3>Akademisch fundiert</h3>
+          <p>B.A. Business Administration, Schwerpunkt Marketing Management. Analytisches Denken trifft auf Praxiserfahrung.</p>
+        </div>
+        <div class="why-card fade-in">
+          <div class="why-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Modern & technologisch</h3>
+          <p>Als KI-Entwickler nutze ich modernste Tools für bessere Analysen, schnellere Prozesse und klarere Entscheidungen.</p>
+        </div>
+        <div class="why-card fade-in">
+          <div class="why-icon"><i class="fas fa-heart"></i></div>
+          <h3>Persönlich & nahbar</h3>
+          <p>Kein Callcenter. Du erreichst mich direkt, für Fragen, Updates und alles, was zwischen uns besprochen wurde.</p>
+        </div>
+        <div class="why-card fade-in">
+          <div class="why-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Spezialist für Familien</h3>
+          <p>Invest4Kids ist mein Herzensthema. Ich kenne die besten Lösungen für den Vermögensaufbau für Kinder.</p>
+        </div>
+        <div class="why-card fade-in">
+          <div class="why-icon"><i class="fas fa-rotate"></i></div>
+          <h3>Langfristige Begleitung</h3>
+          <p>Einmalige Beratung war gestern. Ich betreue dich dauerhaft und passe deine Strategie an Lebensveränderungen an.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-banner-inner fade-in">
+        <div class="cta-banner-text">
+          <h2>Bereit, die Zukunft deines Kindes zu sichern?</h2>
+          <p>Das erste Gespräch ist kostenlos und unverbindlich. Lass uns gemeinsam den besten Weg finden.</p>
+        </div>
+        <a href="#kontakt" class="btn-gold btn-large">
+          Jetzt Gespräch vereinbaren
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact-section" id="kontakt">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-info fade-in">
+          <div class="section-eyebrow">Kontakt</div>
+          <h2 class="section-heading">
+            Lass uns<br />
+            <span class="heading-accent">sprechen.</span>
+          </h2>
+          <p class="contact-desc">
+            Das erste Gespräch ist immer kostenlos und unverbindlich. Ich freue mich
+            darauf, deine Situation kennenzulernen und gemeinsam die besten Möglichkeiten
+            für dich und deine Familie zu entdecken.
+          </p>
+
+          <div class="contact-channels">
+            <a href="https://www.linkedin.com/in/till-deraneck/" target="_blank" rel="noopener" class="contact-channel">
+              <div class="channel-icon"><i class="fab fa-linkedin"></i></div>
+              <div class="channel-text">
+                <strong>LinkedIn</strong>
+                <span>Till Deraneck</span>
+              </div>
+              <i class="fas fa-external-link-alt channel-arrow"></i>
+            </a>
+            <a href="mailto:tjderaneck@gmail.com" class="contact-channel">
+              <div class="channel-icon"><i class="fas fa-envelope"></i></div>
+              <div class="channel-text">
+                <strong>E-Mail</strong>
+                <span>tjderaneck@gmail.com</span>
+              </div>
+              <i class="fas fa-external-link-alt channel-arrow"></i>
+            </a>
+          </div>
+
+          <div class="contact-promise">
+            <i class="fas fa-clock"></i>
+            <span>Ich antworte in der Regel innerhalb von 24 Stunden.</span>
+          </div>
+        </div>
+
+        <div class="contact-form-col fade-in">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row-2">
+              <div class="form-field">
+                <label for="firstName">Vorname *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Max" required />
+              </div>
+              <div class="form-field">
+                <label for="lastName">Nachname *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Mustermann" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="email">E-Mail-Adresse *</label>
+              <input type="email" id="email" name="email" placeholder="max@beispiel.de" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Telefonnummer</label>
+              <input type="tel" id="phone" name="phone" placeholder="+49 123 456 789" />
+            </div>
+            <div class="form-field">
+              <label for="topic">Thema</label>
+              <select id="topic" name="topic">
+                <option value="">Bitte wählen…</option>
+                <option value="invest4kids">Invest4Kids: Investment für mein Kind</option>
+                <option value="versicherung">Versicherungsberatung</option>
+                <option value="familienberatung">Ganzheitliche Familienberatung</option>
+                <option value="sonstiges">Sonstiges</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Deine Nachricht</label>
+              <textarea id="message" name="message" rows="4" placeholder="Erzähl mir kurz von deiner Situation oder deinen Fragen…"></textarea>
+            </div>
+            <div class="form-privacy-row">
+              <input type="checkbox" id="privacy" name="privacy" required />
+              <label for="privacy">
+                Ich stimme der <a href="#datenschutz">Datenschutzerklärung</a> zu. *
+              </label>
+            </div>
+            <button type="submit" class="btn-submit">
+              <span class="submit-text">Nachricht senden</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-circle-check"></i>
+              Vielen Dank! Ich melde mich so schnell wie möglich bei dir.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="footer-logo">
+            <span class="brand-first">Till</span>
+            <span class="brand-last">Deraneck</span>
+            <span class="brand-dot">.</span>
+          </div>
+          <p class="footer-tagline">
+            Dein unabhängiger §34d-Versicherungsmakler und Invest4Kids-Experte.
+            Persönliche, langfristige Beratung für Familien.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/till-deraneck/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Leistungen</h4>
+          <ul>
+            <li><a href="#invest4kids">Invest4Kids</a></li>
+            <li><a href="#leistungen">Versicherungsberatung</a></li>
+            <li><a href="#leistungen">Familienberatung</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#ueber-mich">Über mich</a></li>
+            <li><a href="#prozess">Vorgehen</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Rechtliches</h4>
+          <ul>
+            <li><a href="#" onclick="openModal('impressumModal'); return false;">Impressum</a></li>
+            <li><a href="#" onclick="openModal('datenschutzModal'); return false;">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Till Deraneck · §34d geprüfter Versicherungsmakler · Alle Rechte vorbehalten</p>
+        <p class="footer-legal-note">
+          Diese Website dient ausschließlich zu Informationszwecken und stellt keine Anlage-
+          oder Versicherungsberatung dar. Für individuelle Empfehlungen kontaktiere mich gerne direkt.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== IMPRESSUM MODAL ===== -->
+  <div class="modal-overlay" id="impressumModal" onclick="closeModalOnBg(event, 'impressumModal')">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal('impressumModal')" aria-label="Schließen">
+        <i class="fas fa-times"></i>
+      </button>
+      <h2 class="modal-title">Impressum</h2>
+      <p class="modal-legal-note">Angaben gemäß § 5 TMG</p>
+
+      <div class="modal-section">
+        <h3>Verantwortlich</h3>
+        <p>
+          Till Deraneck<br />
+          Königsweg 40<br />
+          24103 Kiel
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Kontakt</h3>
+        <p>
+          E-Mail: <a href="mailto:tjderaneck@gmail.com">tjderaneck@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Berufsbezeichnung & Zulassung</h3>
+        <p>
+          Selbstständiger Versicherungsmakler gemäß § 34d GewO<br />
+          Erlaubnis erteilt durch:<br />
+          Industrie- und Handelskammer zu Kiel<br />
+          Bergstraße 2, 24103 Kiel
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Registereintrag</h3>
+        <p>
+          Vermittlerregister der DIHK Deutsche Industrie- und Handelskammer<br />
+          Registernummer: <strong>[Deine DIHK-Registernummer eintragen]</strong><br />
+          Einsehbar unter: <a href="https://www.vermittlerregister.info" target="_blank" rel="noopener">www.vermittlerregister.info</a>
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Aufsichtsbehörde</h3>
+        <p>
+          Industrie- und Handelskammer zu Kiel<br />
+          Bergstraße 2, 24103 Kiel<br />
+          <a href="https://www.ihk-schleswig-holstein.de" target="_blank" rel="noopener">www.ihk-schleswig-holstein.de</a>
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>EU-Streitschlichtung</h3>
+        <p>
+          Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:<br />
+          <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/</a><br />
+          Meine E-Mail-Adresse findest du im Impressum oben.
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Haftung für Inhalte</h3>
+        <p>
+          Als Diensteanbieter bin ich gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den
+          allgemeinen Gesetzen verantwortlich. Die Inhalte dieser Website dienen ausschließlich
+          Informationszwecken und stellen keine Anlage- oder Versicherungsberatung dar.
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Urheberrecht</h3>
+        <p>
+          Die durch mich erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen
+          Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung
+          außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== DATENSCHUTZ MODAL ===== -->
+  <div class="modal-overlay" id="datenschutzModal" onclick="closeModalOnBg(event, 'datenschutzModal')">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal('datenschutzModal')" aria-label="Schließen">
+        <i class="fas fa-times"></i>
+      </button>
+      <h2 class="modal-title">Datenschutzerklärung</h2>
+      <p class="modal-legal-note">Gemäß DSGVO & BDSG</p>
+
+      <div class="modal-section">
+        <h3>Verantwortlicher</h3>
+        <p>
+          Till Deraneck<br />
+          Königsweg 40, 24103 Kiel<br />
+          E-Mail: <a href="mailto:tjderaneck@gmail.com">tjderaneck@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Erhebung und Verarbeitung personenbezogener Daten</h3>
+        <p>
+          Ich erhebe personenbezogene Daten nur, wenn du mir diese im Rahmen einer Kontaktaufnahme
+          (z. B. über das Kontaktformular oder per E-Mail) freiwillig mitteilst. Diese Daten werden
+          ausschließlich zur Bearbeitung deiner Anfrage verwendet und nicht an Dritte weitergegeben.
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Kontaktformular</h3>
+        <p>
+          Wenn du das Kontaktformular nutzt, werden die von dir eingegebenen Daten (Name, E-Mail,
+          Telefon, Nachricht) zur Bearbeitung deiner Anfrage verarbeitet. Rechtsgrundlage ist
+          Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw. Art. 6 Abs. 1 lit. f DSGVO
+          (berechtigtes Interesse).
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Externe Dienste</h3>
+        <p>
+          Diese Website nutzt Google Fonts und Font Awesome über CDN. Dabei können Verbindungen
+          zu Servern in den USA hergestellt werden. Weitere Informationen findest du in den
+          Datenschutzrichtlinien der jeweiligen Anbieter.
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Deine Rechte</h3>
+        <p>
+          Du hast das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung
+          deiner gespeicherten Daten sowie das Recht auf Datenübertragbarkeit. Wende dich dazu
+          jederzeit an: <a href="mailto:tjderaneck@gmail.com">tjderaneck@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="modal-section">
+        <h3>Beschwerderecht</h3>
+        <p>
+          Du hast das Recht, dich bei der zuständigen Datenschutzaufsichtsbehörde zu beschweren.
+          Zuständig ist das Unabhängige Landeszentrum für Datenschutz Schleswig-Holstein (ULD),
+          Holstenstraße 98, 24103 Kiel.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
